@@ -287,37 +287,17 @@
     <!-- Keybindings for running applications -->
     <keybind key="W-d">
       <action name="Execute">
-        <command>rofi -show run</command>
-      </action>
-    </keybind>
-    <keybind key="W-S-s">
-      <action name="Execute">
-        <command>rofi -show ssh</command>
-      </action>
-    </keybind>
-    <keybind key="W-S-c">
-      <action name="Execute">
-        <command>rofi -show calc</command>
+        <command>dmenu_run</command>
       </action>
     </keybind>
     <keybind key="W-Return">
       <action name="Execute">
-        <command>kitty</command>
+        <command>urxvt</command>
       </action>
     </keybind>
     <keybind key="W-w">
       <action name="Execute">
-        <command>firefox</command>
-      </action>
-    </keybind>
-    <keybind key="W-S-w">
-      <action name="Execute">
         <command>qutebrowser</command>
-      </action>
-    </keybind>
-    <keybind key="W-S-b">
-      <action name="Execute">
-        <command>chromium</command>
       </action>
     </keybind>
     <keybind key="W-g">
@@ -332,7 +312,7 @@
     </keybind>
     <keybind key="W-m">
       <action name="Execute">
-        <command>thunderbird</command>
+        <command>claws-mail</command>
       </action>
     </keybind>
     <keybind key="W-S-g">
