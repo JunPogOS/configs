@@ -1,0 +1,58 @@
+*.foreground: #ebdbb2
+*.background: #1d2021
+*.cursorColor: #a89984
+
+! black
+*.color0: #1d2021
+*.color8: #3c3836
+
+! red
+*.color1: #cc241d
+*.color9: #fb4934
+
+! green
+*.color2: #98971a
+*.color10: #b8bb26
+
+! yellow
+*.color3: #d79921
+*.color11: #fabd2f
+
+! blue
+*.color4: #458588
+*.color12: #83a598
+
+! magenta
+*.color5: #b16286
+*.color13: #d3869b
+
+! cyan
+*.color6: #689d6a
+*.color14: #8ec07c
+
+! white
+*.color7: #ebdbb2
+*.color15: #fbf1c7
+
+! Urxvt
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+*.font: xft:Iosevka:style=Regular:size=14
+*.boldFont: xft:Iosevka:style=Bold:size=14
+*.italicFont: xft:Iosevka:style=Italic:size=14
+*.boldItalicFont: xft:Iosevka:style=Bold Italic:size=14
+!! Common Keybinds for Navigations
+URxvt.keysym.Shift-Up: command:\033]720;1\007
+URxvt.keysym.Shift-Down: command:\033]721;1\007
+URxvt.keysym.Control-Up: \033[1;5A
+URxvt.keysym.Control-Down: \033[1;5B
+URxvt.keysym.Control-Right: \033[1;5C
+URxvt.keysym.Control-Left: \033[1;5D
+URxvt.urlLauncher: qutebrowser
+URxvt.underlineURLs: true
+URxvt.urlButton: 1
+URxvt.perl-ext-common: default,clipboard,url-select,keyboard-select
+URxvt.copyCommand: xclip -i -selection clipboard
+URxvt.pasteCommand: xclip -o -selection clipboard
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste
