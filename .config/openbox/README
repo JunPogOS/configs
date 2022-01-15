@@ -1,0 +1,3 @@
+autostart is where you shove commands for things to start on startup.
+menu.xml is where you configure the right click menu but I think the pi disables this
+rc.xml is the actual openbox config file
