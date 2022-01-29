@@ -1,0 +1,8 @@
+#
+
+# Compositior
+# picom --config /home/ocilla/.config/picom/picom.conf -b &
+
+# Taskbar
+# tint2 &
+
