@@ -3,7 +3,7 @@ export LC_ALL=POSIX LANG=POSIX; . "${HOME}/.owl4ce_var"
 
 ROFI="rofi -theme themes/sidebar/six-${CHK_ROFI_MOD}.rasi"
 
-A='' B='' C='' D='' E='' F=''
+A='' B='' C='' D='' E='' F=''
 
 status="$("$MUSIC_CONTROLLER" status)"
 current="$("$MUSIC_CONTROLLER" title)"

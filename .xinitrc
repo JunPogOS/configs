@@ -45,5 +45,4 @@ pipewire-media-session &
 xset fp rehash &
 unclutter & # Hide mouse
 lxsession &
-# ~/.config/fehbg &
 exec openbox-session

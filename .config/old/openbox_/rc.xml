@@ -432,7 +432,7 @@
     </keybind>
     <keybind key="W-w">
       <action name="Execute">
-        <command>bash -c '~/.scripts/default-apps/launch browser'</command>
+        <command>qutebrowser</command>
       </action>
     </keybind>
     <keybind key="W-r">
@@ -808,7 +808,7 @@
   </menu>
   <applications>
     <application class="*" type="normal">
-        <decor>no</decor>
+        <decor>yes</decor>
     </application>
     <!--
     <application class="Thunar" type="normal">

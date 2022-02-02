@@ -172,7 +172,7 @@ NOTIFY_DIR="${SCRIPTS_DIR}/notify"
 
 STATE_EXT='joy'
 
-MPD_DIR="${HOME}/.mpd"
+MPD_DIR="${HOME}/.config/mpd"
 NCMPCPP_DIR="${HOME}/.ncmpcpp"
 NCMPCPP_SCRIPTS_DIR="${NCMPCPP_DIR}/scripts"
 

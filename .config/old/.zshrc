@@ -6,14 +6,14 @@ setopt autocd
 unsetopt beep
 bindkey -v
 # End of lines configured by zsh-newuser-install
-zstyle :compinstall filename '/home/anon/.zshrc'
+zstyle :compinstall filename '$HOME/.zshrc'
 
 autoload -Uz compinit promptinit
 compinit
 promptinit
 
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+# source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 PROMPT='%(?.%F{green}%n.%F{red}Oof)%f %B%F{240}%1~%f%b %# '
 
@@ -47,7 +47,7 @@ source $HOME/.config/zsh/alias
 source $HOME/.config/zsh/programs
 
 export _JAVA_AWT_WM_NONREPARENTING=1 # Fixes java applications
-export PATH="$PATH:/home/ocilla/.local/bin"
+export PATH="$PATH:$HOME/.local/bin"
 
 # share history across multiple zsh sessions
 setopt SHARE_HISTORY
@@ -66,10 +66,3 @@ alias -s png="feh"
 alias -s jpg="feh"
 alias -s gif="feh"
 alias -s html="$BROWSER"
-
-# Autostart X
-# if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
-#   exec startx
-# fi
-
-export CHROOT=$HOME/code/repo_building/new/chroot
